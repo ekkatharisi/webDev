@@ -1,0 +1,66 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="./css/styleAuth.css"/>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <div class="navbartop">
+            <!--<a class="title" href="./auth.html" >title of the template</a>-->
+            <a class="item selected" href="#auth">Authentification</a>
+            <a class="item" href="#register">register</a>
+            <a class="item" href="#newsleter">newsleter</a>
+            <a class="item" href="#comments">Comments</a>
+        </div>
+    </header>
+        <section class="firstSection">
+            <div class="panelAuth">
+                    <div class="row topBuffer">
+                        <div class="col-md-5"><label>email</label></div>
+                        <div class="col-md-7"><input type="email" name="email" placeholder="email"/></div>
+                    </div>
+                    <div class="row topBuffer">
+                        <div class="col-md-5"><label>password</label></div>
+                        <div class="col-md-7"><input type="password" name="pw" placeholder="password"/></div>
+                    </div>
+                    <a href="#"><div class="btn">login</div></a>
+        
+                    <a href="./register.html" class="link">register if you are not</a>
+            </div>
+        </section>
+        <section class="secondSection">
+            <div class="registerPanel">
+                <div class="row topbuffer">
+                    <div class="col-md-6"><input type="text" name="fn" placeholder="first name"/> </div>
+                    <div class="col-md-6"><input type="text" name="ln" placeholder="last name"/></div>
+                </div>
+                <div class="row topBuffer">
+                    <div class="col-md-4">
+                        <select class="" name="d">
+                            <option selected="" >day</option>
+                            <option>1...31</option>
+                        </select>
+                    </div>
+                    <div class="col-md-4">
+                        <select class="" name="m">
+                            <option>month</option>
+                            <option>1...12</option>
+                        </select>
+                    </div>
+                    <div class="col-md-4">
+                        <input type="text" name="y" placeholder="year"/> 
+                    </div>
+                </div>
+                <div class="row topBuffer">
+                    <div class="col-md-12"><input type="email" name="email" placeholder="email"/></div>
+                </div>
+                <div class="row topBuffer">
+                    <div class="col-md-6"><input type="password" name="pw1" placeholder="enter your password"/></div>
+                    <div class="col-md-6"><input type="password" name="pw2" placeholder="comfirm your password"/></div>
+                </div>
+            </div>
+        </section>
+
+</body>
+</html>
